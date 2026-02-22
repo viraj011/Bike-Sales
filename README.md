@@ -1,6 +1,18 @@
-# Bike Sales Dashboard
-### **DATASET**
-Dataset contains 1001 customer records with:
+**Bike Sales Customer Conversion & Segmentation Analysis**
+
+**📌 Project Overview**
+
+This project analyzes customer demographic and behavioral data to identify key factors influencing bike purchase decisions. The objective was to derive actionable marketing insights using Excel-based data cleaning, segmentation, and dashboard visualization.
+
+**📊 Dataset Summary**
+
+Total Records: 1001 customers
+
+Target Variable: Purchased Bike (Yes/No)
+
+Overall Conversion Rate: 48%
+
+Key Features:
 
 Age
 
@@ -14,106 +26,70 @@ Commute Distance
 
 Region
 
-Purchased Bike (Yes/No)
-
-### **🛠 Tools Used**
+**🛠 Tools & Techniques Used**
 
 Microsoft Excel
 
 Data Cleaning & Deduplication
 
+Feature Engineering (Age, Income, Distance Binning)
+
 Pivot Tables
+
+Conversion Rate Analysis
 
 Dashboard Design
 
-Basic Statistical Analysis
+Correlation Analysis
 
- ### **Data Preparation**
+**🔍 Data Preparation**
 
-Removed duplicate records to ensure analytical accuracy
+Removed duplicate records
 
-Standardized categorical fields
+Standardized categorical variables
 
-Engineered Purchase_Flag column (1 = Yes, 0 = No)
+Created Purchase_Flag (1 = Yes, 0 = No)
 
-Created segmented variables:
+Engineered segmentation variables:
 
 Age Groups (<25, 25–35, 36–45, 46+)
 
 Income Groups (Low, Mid, High)
 
-Distance Groups (0–1, 2–5, 5-10,10+)
+Distance Groups (0–1, 2–5, 5+)
 
- ### **Key Metrics**
+**📈 Key Insights**
 
-Total Customers: 1001
+**🔹 Age Impact**
 
-Overall Purchase Conversion Rate: 48%
+36–45 age group showed the highest purchase conversion.
 
-### **📈 Analysis & Findings**
-1). **Conversion Rate by Age Group**
+**🔹 Income Impact**
 
-Highest conversion observed in 36–45 age group
+High-income customers converted:
 
-Indicates strong mid-career purchasing power and intent
+2% higher than middle-income
 
-2). **Conversion Rate by Income Group**
+13% higher than low-income
 
-High-income customers converted 2% higher than middle-income
+Correlation between income and purchase = 0.0496 (weak linear relationship)
 
-High-income customers converted 13% higher than low-income segment
+Segmentation analysis provided stronger insight than raw correlation.
 
-Suggests income sensitivity but not a strong linear effect
+**🔹 Commute Distance Impact**
 
-Correlation between income and purchase:
+Customers with 0–1 mile commute distance showed highest purchase likelihood.
 
-r = 0.0496 (very weak linear relationship)
+Indicates proximity-driven urban demand.
 
-Indicates segmented analysis provides stronger insight than raw correlation
-
-3). **Commute Distance vs Purchase**
-
-0–1 mile commute group showed highest conversion
-
-Suggests short-distance urban commuters have stronger purchase intent
-
-4). **Cross-Segmentation (Age × Income)**
-
-Highest conversion cluster observed within:
-
-36–45 age group
-
-High-income bracket
-
-Indicates a clear high-value customer persona
-
- **Customer Persona Identified**
-
-Primary high-conversion segment:
+**🎯 Identified High-Conversion Persona**
 
 Age: 36–45
 
 Income: High
 
-Commute Distance: 0–1 mile
+Commute Distance: 0–1 miles
 
-### **💡 Business Implications**
+This segment represents the strongest marketing opportunity.
 
-Target marketing campaigns toward mid-career high-income commuters
-
-Position bike as efficient short-distance urban transport
-
-Consider differentiated pricing strategies for lower-income segments
-
-** Skills Demonstrated**
-
-Data Cleaning & Validation
-
-Feature Engineering
-
-Conversion Rate Analysis
-
-Customer Segmentation
-
-Dashboard Design
 
