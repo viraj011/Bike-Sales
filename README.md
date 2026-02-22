@@ -92,4 +92,29 @@ Commute Distance: 0–1 miles
 
 This segment represents the strongest marketing opportunity.
 
+![Dashboard Preview](dashboard.jpeg)
+
+
+**💡 Business Recommendations**
+
+Target mid-career, high-income urban commuters.
+
+Position product as efficient short-distance mobility solution.
+
+Explore pricing strategies to improve low-income segment conversion.
+
+**📌 Skills Demonstrated**
+
+Data Cleaning & Validation
+
+Customer Segmentation
+
+Conversion Rate Analysis
+
+Analytical Interpretation
+
+Dashboard Development
+
+Structured Problem Solving
+
 
